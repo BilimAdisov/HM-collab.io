@@ -1,0 +1,1389 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    max-height: 9331px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+}
+/*шапка*/
+.header {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+a:hover, a:focus, a:active  {
+    opacity: 50%;
+}
+
+.header_logo {
+    position: absolute;
+    left: 73.58px;
+    top: 28px;
+    opacity: none;
+}
+.header_text {
+    position: absolute;
+    left: 422px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_text2 {
+    position: absolute;
+    left: 525px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_text3 {
+    position: absolute;
+    left: 607px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_text4 {
+    position: absolute;
+    left: 694px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_text5 {
+    position: absolute;
+    left: 764px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_text6 {
+    position: absolute;
+    left: 1038px;
+    top: 39px;
+    text-decoration: none;
+    color: #222222;
+}
+.header_button {
+    position: absolute;
+    right: 72px;
+    left: 1149px;
+    top: 20px;
+    width: 219px;
+    height: 61px;
+    border-radius: 14px;
+    border-color: #08082933;
+    color: #222222;
+    
+}
+#text_style {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #222222;
+}
+/*страница 1 иконки спарава*/
+#backside-header {
+    Width: 440px;
+    Height: 382px;
+    border-radius: 16px;
+    position: absolute;
+    left: 800px;
+    top: 211px;
+}
+#blue-human {
+    position: absolute;
+    left: 720px;
+    top: 305px;
+}
+#fontside-header {
+    position: absolute;
+    left: 1092px;
+    top: 352px;
+}
+#header-under {
+    position: absolute;
+    left: 720px;
+    top: 638px;
+}
+#red-humen {
+    position: absolute;
+    left: 1210px;
+    top: 171px;
+}
+#strelka-button {
+    position: absolute;
+    left: 394px;
+    top: 683px;
+}
+#dot-header {
+    position: absolute;
+    left: 710px;
+    top: 547px;
+}
+/*страница 1 надпись слева*/
+.pic_text {
+    position: absolute;
+    left: 120px;
+    top: 225px;
+    width: 470px;
+    height: 317px;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 79.2px;
+    letter-spacing: 2.16px;
+}
+.pic_smalltext {
+    position: absolute;
+    left: 120px;
+    top: 573px;
+    width: 495px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+.pic_button {
+    position: absolute;
+    left: 120px;
+    top: 703px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: 
+    #FFFFFF;
+    border-radius: 14px;
+    width: 240px;
+    height: 59px;
+    background-color: #3F53D8;
+    border: none;
+} 
+/*страница 1 нога*/
+.pf_header {
+    position: absolute;
+    left: 479px;
+    top: 931px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31.2px;
+    letter-spacing: 0.48px;
+}
+#ipsum {
+    position: absolute;
+    left: 134.5px;
+    top: 987px;
+}
+#ipsum2 {
+    position: absolute;
+    left: 325px;
+    top: 987px;
+}
+#ipsum3 {
+    position: absolute;
+    left: 529px;
+    top: 987px;
+}
+#ipsum4 {
+    position: absolute;
+    left: 734px;
+    top: 987px;
+}
+#ipsum5 {
+    position: absolute;
+    left: 938px;
+    top: 987px;
+}
+#ipsum6 {
+    position: absolute;
+    left: 1143;
+    right: 119px;
+    top: 987px;
+}
+/*эффект кнопоп*/
+button:hover, button:focus, button:active {
+    opacity: 75%;
+}
+/* страница-2 иконки*/
+#app_icon {
+    position: absolute;
+    left: 230px;
+    top: 1482px;
+}
+#app_icon2 {
+    position: absolute;
+    left: 530px;
+    top: 1482px;
+}
+#app_icon3 {
+    position: absolute;
+    left: 830px;
+    top: 1482px;
+}
+#app_icon4 {
+    position: absolute;
+    left: 1130px;
+    top: 1482px;
+}
+#app_icon5 {
+    position: absolute;
+    left: 230px;
+    top: 1727px;
+}
+#app_icon6 {
+    position: absolute;
+    left: 530px;
+    top: 1727px;
+}
+#app_icon7 {
+    position: absolute;
+    left: 830px;
+    top: 1727px;
+}
+#app_icon8 {
+    position: absolute;
+    left: 1130px;
+    top: 1727px;
+}
+/*страница-2 заглавие*/
+ #body_text {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+    position: absolute;
+    left: 417px;
+    top: 1234px;
+}
+#body_text2 {
+    font-weight:400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+    position: absolute;
+    left: 443px;
+    top: 1318px;
+}
+/*текста под иконками*/
+.style_apptext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0.02px;
+}
+#app_text {
+    position: absolute;
+    left: 163px;
+    top: 1593px;
+}
+#app_text2 {
+    position: absolute;
+    left: 484px;
+    top: 1593px;
+}
+#app_text3 {
+    position: absolute;
+    left: 762px;
+    top: 1593px;
+}
+#app_text4 {
+    position: absolute;
+    left: 1051px;
+    top: 1593px;
+}
+#app_text5 {
+    position: absolute;
+    left: 194px;
+    top: 1838px;
+}
+#app_text6 {
+    position: absolute;
+    left: 460px;
+    top: 1838px;
+}
+#app_text7 {
+    position: absolute;
+    left: 736px;
+    top: 1838px;
+}
+#app_text8 {
+    position: absolute;
+    left: 1084px;
+    top: 1838px;
+}
+/*страница-3 картинки слева*/
+#list3-icon {
+    position: absolute;
+    left: 168px;
+    top: 2102px;
+}
+#list3-icon2 {
+    position: absolute;
+    left: 120px;
+    top: 2102px;
+}
+#list3-icon3 {
+    position: absolute;
+    left: 401px;
+    top: 2395px;
+}
+#list3-icon4 {
+    position: absolute;
+    left: 734px;
+    top: 2282px;
+}
+/*страница-3 текст справа*/
+#list3_text {
+    position: absolute;
+    left: 888px;
+    top: 2111px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+#list3_text2 {
+    position: absolute;
+    left: 888px;
+    top: 2250px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+#list3_text3 {
+    position: absolute;
+    left: 924px;
+    top: 2343px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+#list3_text4 {
+    position: absolute;
+    left: 924px;
+    top: 2386px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+#list3_text5 {
+    position: absolute;
+    left: 924px;
+    top: 2459px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+/*list3-button*/
+#list3_button {
+    position: absolute;
+    left: 888px;
+    top: 2536px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    width: 174px;
+    height: 59px;
+    border-radius: 14px;
+    background-color: #3F53D8;
+    border: none; 
+}
+#list4-icon {
+    position: absolute;
+    left: 821px;
+    top: 2886px;
+}
+#list4-icon2 {
+    position: absolute;
+    left: 696px;
+    top: 2966px;
+}
+#list4-icon3 {
+    position: absolute;
+    left: 428px;
+    top: 3419px;
+}
+#list4-icon4 {
+    position: absolute;
+    left: 120px;
+    top: 3207px;
+}
+#list4-text {
+    position: absolute;
+    left: 120px;
+    top: 2938px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 55.66px;
+    letter-spacing: 1.44px;
+}
+#list4-text2 {
+    position: absolute;
+    left: 120px;
+    top: 3077px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+}
+#list4-text3 {
+    position: absolute;
+    left: 234px;
+    top: 3208px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0.36px;
+}
+#list4-text4 {
+    position: absolute;
+    left: 234px;
+    top: 3274px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.32px;
+}
+#list4_button {
+    position: absolute;
+    left: 120px;
+    top: 3346px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    width: 174px;
+    height: 59px;
+    border-radius: 14px;
+    background-color: #3F53D8;
+    border: none; 
+}
+/*страница-5 иконки*/
+.list5_icon {
+    position: absolute;
+    left: 120px;
+    top: 3640px;
+}
+#list5_icon2 {
+    position: absolute;
+    left: 666px;
+    top: 3702px;
+}
+#list5_icon3 {
+    position: absolute;
+    left: 498px;
+    top: 4056px;
+}
+#list5_icon4 {
+    position: absolute;
+    left: 888px;
+    top: 4077.5px;
+}
+/*страниц-5 текст*/
+#list5_text {
+    position: absolute;
+    left: 888px;
+    top: 3682px;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 1.44px;
+    line-height: 55.68px;
+}
+#list5_text2 {
+    position: absolute;
+    left: 888px;
+    top: 3931px;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    line-height: 28.8px;
+}
+/*страница-6 иконки*/
+#list6-icon {
+position: absolute;
+left: 1304px;
+top: 4303px;
+}
+#list6-icon2 {
+position: absolute;
+left: 120px;
+top: 4579px;
+}
+#list6-icon3 {
+position: absolute;
+left: 550px;
+top: 4579px;
+}
+#list6-icon4 {
+position: absolute;
+left: 980px;
+top: 4579px;
+}
+/*страница-6 текст*/
+#list6-maintext {
+position: absolute;
+left: 415px;
+top: 4441px;
+font-weight: 400;
+font-size: 43px;
+line-height: 55.68px;
+letter-spacing: 1.44px;
+}
+#list6-bigtext {
+position: absolute;
+left: 120px;
+top: 4908px;
+font-weight: 400;
+font-size: 27px;
+line-height: 33.6px;
+letter-spacing: 0.56px;  
+}
+#list6-bigtext2 {
+position: absolute;
+left: 550px;
+top: 4908px;
+font-weight: 400;
+font-size: 27px;
+line-height: 33.6px;
+letter-spacing: 0.56px;
+}
+#list6-bigtext3 {
+position: absolute;
+left: 980px;
+top: 4908px;
+font-weight: 400;
+font-size: 27px;
+line-height: 33.6px;
+letter-spacing: 0.56px;
+}
+#list6-smalltext {
+position: absolute;
+left: 120px;
+top: 4962px;
+font-weight: 400;
+font-size: 17px;
+line-height: 28.8px;
+letter-spacing: 0.36px;
+}
+#list6-smalltext2 {
+position: absolute;
+left: 550px;
+top: 4962px;
+font-weight: 400;
+font-size: 17px;
+line-height: 28.8px;
+letter-spacing: 0.36px;
+}
+#list6-smalltext3 {
+position: absolute;
+left: 980px;
+top: 4962px;
+font-weight: 400;
+font-size: 17px;
+line-height: 28.8px;
+letter-spacing: 0.36px;
+}
+/*страница-7 иконки*/
+#list7-icon {
+    position: absolute;
+    left: 347px;
+    top: 5433.58px;
+}
+#list7-icon2 {
+    position: absolute;
+    left: 209.38px;
+    top: 5452.75px;
+}
+#list7-icon3 {
+    position: absolute;
+    left: 1149.38px;
+    top: 5638.88px;
+}
+#list7-icon4 {
+    position: absolute;
+    left: 347px;
+    top: 5737px;
+}
+#list7-icon5 {
+    position: absolute;
+    left: 989px;
+    top: 5769px;
+}
+#list7-icon6 {
+    position: absolute;
+    left: 1045px;
+    top: 5769px;
+}
+/*страница-7 текст*/
+#list7-maintext {
+    position: absolute;
+    left: 357px;
+    top: 5241px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+#list7-maintext2 {
+    position: absolute;
+    left: 500px;
+    top: 5296px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+#list7-midtext {
+    position: absolute;
+    left: 347px;
+    top: 5494px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44.8px;
+    letter-spacing: 0.64px;
+}
+#list7-endtext {
+    position: absolute;
+    left: 347px;
+    top: 5663px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33.6px;
+    letter-spacing: 0.48px;
+}
+/*страница-7 foot*/
+#list7_footicon {
+    position: absolute;
+    left: 120px;
+    top: 6040px;
+}
+#list7_foottext {
+    position: absolute;
+    left: 220px;
+    top: 6063px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.4px;  
+}
+/*страница-7 foot text*/
+#list7-tousand {
+    position: absolute;
+    left: 527px;
+    top: 6015px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.6px;
+    letter-spacing: 1.44px;
+}
+#list7-tousand2 {
+    position: absolute;
+    left: 818px;
+    top: 6015px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.6px;
+    letter-spacing: 1.44px;
+}
+#list7-tousand3 {
+    position: absolute;
+    left: 1109px;
+    top: 6015px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.6px;
+    letter-spacing: 1.44px;
+}
+#list7-plus {
+    color: #3F53D8;
+}
+#list7-pharag {
+    position: absolute;
+    left: 527px;
+    top: 6088px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px; 
+}
+#list7-pharag2 {
+    position: absolute;
+    left: 818px;
+    top: 6088px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px; 
+}
+#list7-pharag3 {
+    position: absolute;
+    left: 1109px;
+    top: 6088px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px; 
+}
+/*страница-8 иконки*/
+#list8-icon {
+    position: absolute;
+    left: 211.84px;
+    top: 6565px;
+}
+#list8-icon2 {
+    position: absolute;
+    left: 444px;
+    top: 6598px;
+}
+#list8-icon3 {
+    position: absolute;
+    left: 662px;
+    top: 6576px;
+}
+#list8-icon4 {
+    position: absolute;
+    left: 901px;
+    top: 6580px;
+}
+#list8-icon5 {
+    position: absolute;
+    left: 1155px;
+    top: 6567px;
+}
+#list8-icon6 {
+    position: absolute;
+    left: 159px;
+    top: 6768px;
+}
+#list8-icon7 {
+    position: absolute;
+    left: 364px;
+    top: 6794px;
+}
+#list8-icon8 {
+    position: absolute;
+    left: 587px;
+    top: 6774px;
+}
+#list8-icon9 {
+    position: absolute;
+    left: 799px;
+    top: 6768px;
+}
+#list8-icon10 {
+    position: absolute;
+    left: 1008px;
+    top: 6784px;
+}
+#list8-icon11 {
+    position: absolute;
+    left: 1223px;
+    top: 6768px;
+}
+#list8-icon12 {
+    position: absolute;
+    left: 1336px;
+    top: 6420px;
+}
+/*страница-8 текст*/
+#list8-text {
+    position: absolute;
+    left: 410px;
+    top: 6317px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+#list8-text2 {
+    position: absolute;
+    left: 554px;
+    top: 6317px;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+    text-indent: 25px;
+}
+/*страница-9 иконки*/
+#list9-icon {
+    position: absolute;
+    left: 120px;
+    top: 7210px; 
+}
+#list9-icon2 {
+    position: absolute;
+    left: 540px;
+    top: 7210px; 
+}
+#list9-icon3 {
+    position: absolute;
+    left: 960px;
+    top: 7210px; 
+}
+/*страница-9 main текст*/
+#list9-maintext {
+    position: absolute;
+    left: 416px;
+    top: 7068px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;}
+
+#list9-maintext2 {
+    position: absolute;
+    left: 662px;
+    top: 7068px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+#list9-maintext3 {
+    position: absolute;
+    left: 825px;
+    top: 7068px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55.68px;
+    letter-spacing: 1.44px;
+}
+/*страница-9 кнопки*/
+#list9-button {
+    position: absolute;
+    left: 120px;
+    top: 7492px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+    background-color: #A259FF4D;    ;
+    border-radius: 10px;
+    height: 34px;
+    width: 101px;
+    border: none;
+}
+#list9-button2 {
+    position: absolute;
+    left: 540px;
+    top: 7492px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+    background-color: #D9DEFF;
+    border-radius: 10px;
+    height: 34px;
+    width: 101px;
+    border: none;
+}
+#list9-button3 {
+    position: absolute;
+    left: 960px;
+    top: 7492px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+    background-color: #FA5B684D;
+    border-radius: 10px;
+    height: 34px;
+    width: 101px;
+    border: none;
+}
+/*страница-9 данные*/
+#list9-info {
+    position: absolute;
+    left: 120px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+#list9-info2 {
+    position: absolute;
+    left: 253px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+#list9-info3 {
+    position: absolute;
+    left: 540px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+#list9-info4 {
+    position: absolute;
+    left: 673px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+#list9-info5 {
+    position: absolute;
+    left: 960px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+#list9-info6 {
+    position: absolute;
+    left: 1093px;
+    top: 7674px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+/*страница-9 точка*/
+#list9-dot {
+    position: absolute;
+    left: 240px;
+    top: 7684px;
+}
+#list9-dot2 {
+    position: absolute;
+    left: 660px;
+    top: 7684px;
+}
+#list9-dot3 {
+    position: absolute;
+    left: 1080px;
+    top: 7684px;
+}
+/*страница-9 средный текст*/
+#list9-text {
+    position: absolute;
+    left: 120px;
+    top: 7553px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0.52px;
+}
+#list9-text2 {
+    position: absolute;
+    left: 540px;
+    top: 7553px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.52px;
+}
+#list9-text3 {
+    position: absolute;
+    left: 960px;
+    top: 7553px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0.52px;
+}
+/*страница-10 иконки*/
+#list10_text {
+    position: absolute;
+    left: 313px;
+    top: 8025px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.16px; 
+    color: #FFFFFF;
+}
+#list10-text2 {
+    position: absolute;
+    left: 887px;
+    top: 8025px;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 79.2px;
+    letter-spacing: 2.16px; 
+    color: #FFFFFF;
+}
+#list10-text3 {
+    position: absolute;
+    left: 295px;
+    top: 8104px;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 79.2px;
+    letter-spacing: 2.16px; 
+    text-indent: 64px;
+   color: #FFFFFF;
+}
+#list10-icon {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 7871px;
+}
+#list10-icon2 {
+    position: absolute;
+    left: 0px;
+    top: 7871px;
+    right: 1208px;
+}
+#list10-icon3 {
+    position: absolute;
+    left: 1163px;
+    top: 8294px;
+}
+#list10-icon4 {
+    position: absolute;
+    left: 870px;
+    top: 8328px;
+}
+#list10-icon5 {
+    position: absolute;
+    left: 1226px;
+    top: 7871px;
+}
+#list10-icon6 {
+    position: absolute;
+    left: 144px;
+    top: 8391px;
+}
+#list10-button {
+    position: absolute;
+    left: 600px;
+    top: 8328px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.4px; 
+    color: #FFFFFF;
+    width: 240px;
+    height: 59px;
+    border-radius: 14px;
+    border: none;
+    background-color: #3F53D8;
+}
+/*страница-11 иконки*/
+#list11-icon {
+    position: absolute;
+    left: 120px;
+    top: 8655px;
+}
+#list11-icon2 {
+    position: absolute;
+    left: 300px;
+    top: 9061px;
+}
+#list11-icon3 {
+    position: absolute;
+    left: 1081.48px;
+    top: 8853px;
+}
+#list11-icon4 {
+    position: absolute;
+    left: 1121.21px;
+    top: 8853px;
+}
+#list11-icon5 {
+    position: absolute;
+    left: 1165.25px;
+    top: 8853px;
+}
+#list11-icon6 {
+    position: absolute;
+    left: 1209.21px;
+    top: 8853px;
+}
+#list11-icon7 {
+    position: absolute;
+    left: 1073px;
+    top: 8703px;
+}
+#list11-icon8 {
+    position: absolute;
+    left: 1073.44px;
+    top: 8749.78px;
+}
+#list11-icon9 {
+    position: absolute;
+    left: 1073px;
+    top: 8791px;
+}
+/*страница-11 текст*/
+#list11-text {
+    position: absolute;
+    left: 584px;
+    top: 8654px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+   color: #080829;   
+   text-decoration: none;
+}
+#list11-text2 {
+    position: absolute;
+    left: 584px;
+    top: 8699px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text3 {
+    position: absolute;
+    left: 584px;
+    top: 8749px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text4 {
+    position: absolute;
+    left: 584px;
+    top: 8799px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text5 {
+    position: absolute;
+    left: 584px;
+    top: 8851px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text6 {
+    position: absolute;
+    left: 584px;
+    top: 8929px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text7 {
+    position: absolute;
+    left: 584px;
+    top: 8979px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-text8 {
+    position: absolute;
+    left: 584px;
+    top: 9029px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+/*страница-11 текст второй*/
+#list11-2text {
+    position: absolute;
+    left: 808px;
+    top: 8654px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+   color: #080829;   
+   text-decoration: none;
+}
+#list11-2text2 {
+    position: absolute;
+    left: 808px;
+    top: 8699px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text3 {
+    position: absolute;
+    left: 808px;
+    top: 8749px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text4 {
+    position: absolute;
+    left: 808px;
+    top: 8799px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text5 {
+    position: absolute;
+    left: 808px;
+    top: 8849px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text6 {
+    position: absolute;
+    left: 808px;
+    top: 8899px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text7 {
+    position: absolute;
+    left: 808px;
+    top: 8949px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text8 {
+    position: absolute;
+    left: 808px;
+    top: 8999px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text9 {
+    position: absolute;
+    left: 808px;
+    top: 9051px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-2text10 {
+    position: absolute;
+    left: 808px;
+    top: 9129px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+
+#list11-aroundtext {
+    position: absolute;
+    left: 1073px;
+    top: 8654px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+   color: #080829;   
+   text-decoration: none;
+}
+#list11-aroundtext2 {
+    position: absolute;
+    left: 1107px;
+    top: 8699px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-aroundtext3 {
+    position: absolute;
+    left: 1107px;
+    top: 8743px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-aroundtext4 {
+    position: absolute;
+    left: 1107px;
+    top: 8787px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2; 
+    color: #080829; 
+    text-decoration: none;
+}
+#list11-aroundtext5 {
+    position: absolute;
+    left: 120px;
+    top: 9248px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.3px; 
+    color: #080829; 
+}
+#list11-aroundtext6 {
+    position: absolute;
+    left: 1149px;
+    top: 9248px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.3px; 
+    color: #080829; 
+}
+
+
+
+
